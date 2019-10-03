@@ -8,7 +8,7 @@ h1{
     /* margin-bottom: 5px; */
     margin-top: 0px;
     background-color: #49aaa5;
-    margin-left: 175px;
+    margin-left: 317px;
     margin-bottom: 0px;
     position: relative;
     top: 14px; 
@@ -17,6 +17,9 @@ h1{
 h2{
     color:#49aaa5;
     padding-top:20px;
+    margin-left: 0px;
+    padding-bottom: -50px;
+    margin-bottom: -25px;
 }
 
 body{
@@ -93,18 +96,21 @@ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 align: left;
 font-size: 15px;
 
+
 }
-/* 
-/* .infoContainer {
+
+.infoContainer {
 border-color: #666666;
-border-top: 50px;
+border-top: 100px;
 border-left: 100px;
 border-right: 100px;
 border-bottom: 150px;
-width: 50%;
+width: 800px;
 height: 50%;
-align: center; */
-} 
+align: center;
+border: black solid;
+margin-left: 350px;
+}  
 
 .navbar-nav{
     float: right;
@@ -151,3 +157,7 @@ hr{
     /* bottom: -590px; */
     color: #ffffff;
     font-size: 13px;
+
+.paragraphs{
+    float: right;
+    }
