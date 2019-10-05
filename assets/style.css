@@ -283,3 +283,7 @@ width: 50%;
         .col-3{
             margin-left: 400px;
         }
+
+        .mb-1{
+            margin-bottom: auto;
+        }
