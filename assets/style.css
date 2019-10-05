@@ -11,7 +11,9 @@ h1{
     margin-left: 317px;
     margin-bottom: 0px;
     /* position: fixed; */
-    top: 14px; 
+    top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 h2{
@@ -26,23 +28,18 @@ body{
     background-image: url("images/hotel-wallpaper.png");
     text-align: justify;
 }
-
-.background{
+ .background{
     float: top;
     height: 850px;
     width: 100%
     padding: 0%;
     margin: 0%;
     position: static;
-    /* padding-bottom: 0%;
-    margin-bottom: 0%; */
-    /* top: -50%; */
     right: -50%;
     left: -50%;
     bottom:- 50%;
     display: block;
-    /* border-bottom: 0%; */ */
-    } */
+    } 
 
     .aboutMeCenter{
         padding: 0px;
@@ -59,9 +56,7 @@ body{
         position: fixed;
         border: solid black 2px;
         color: #ffffff;
-      
-        /* word-wrap: normal; */
-           }
+                 }
 
 
 
@@ -113,7 +108,7 @@ border-right: 100px;
 border-bottom: 150px;
 width: 700px;
 height: 50%;
-/* align: center; */
+align: center;
 border: #dddddd solid 1px;
 margin-left: 350px;
 margin-top:75px;
@@ -137,7 +132,7 @@ padding-left: 25px;
     height: 425px;
     /* align: center; */
     border: #dddddd solid 1px;
-    margin-left: 350px;
+    margin-left: 400px;
     margin-top:20px;
     color: #777777;
     background-color: #ffffff;
@@ -146,8 +141,7 @@ padding-left: 25px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding-right: 25px;
     padding-left: 25px;  
-    
-
+  
 }
 
 #contactMiddle{
@@ -174,9 +168,6 @@ padding-right: -100px;
 padding-left: 300px;
 }
 
-/* header {
-    background-color: #dddddd;
-} */
 
 #topLine{
     padding-top: 0%;
@@ -186,10 +177,6 @@ padding-left: 300px;
 nav {
 
     width: 100%;
-}
-
-hr{
-  
 }
 
 .row1{
@@ -225,7 +212,7 @@ clear: both;
 display: table;
 }
 
-.container1{
+.container{
     border-color: #666666;
     border-top: 150px;
     border-left: 100px;
@@ -234,7 +221,7 @@ display: table;
     width:500px;
     height: 425px;
     /* align: center; */
-    border: #dddddd solid 1px;
+    border: black solid 5px;
 }
 
 .bottomLineContact{
@@ -247,7 +234,52 @@ display: table;
     width: 500px;
     height: 425px;
     color:  #666666;
+    border: black solid 5px;
     /* align: center; */
     /* border: #dddddd solid 1px; */
 
 }
+
+.col-sm-4{
+width: 50%;
+}
+
+/* Why am I not able to manipulate the div container? */
+.col-md-9{
+    margin-right: 150px;
+}
+
+.photos{
+    height: 520px;
+    padding:0px;
+    margin:0px;
+}
+    .photoset {
+    float: left;
+    padding-bottom: 0px;
+    padding-top:0px;
+    padding-right: 10px;
+    padding-left: 0px;
+    margin-right: 10px;
+    }
+
+     /* .box-set1{
+        position: absolute;
+        z-index: 2;
+        /* border: 1px solid #4aaaa5; */
+        /* border-color: #4aaaa5;
+        color: #FFFFFF;
+        height: 40px;
+        width: 275px;
+        text-align: center;
+        margin-top: -360px;
+        margin-right: 0px;
+        margin-left:    10.2px;
+        margin-bottom: 100px;
+        background-color: #4aaaa5;
+        font-family:'Georgia', Times, Times New Roman, serif;
+        }  */ */
+
+        .col-3{
+            margin-left: 400px;
+        }
